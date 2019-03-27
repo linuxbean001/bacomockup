@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900');
+html, body {
+  height: 100%;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.tab-button {
+    height: 100%;
+    background: #F3F3F3;
+    width: 25%;
+    position: fixed;
+}
+
+.tab-button .nav>li>a {
+    border-radius: 2px;
+    font-weight: 700;
+    color: #394166;
+    border-left: 5px solid transparent;
+}
+
+.tab-button .nav>li>a span {
+    display: block;
+    margin-top: 15px;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+
+.tab-button .nav-pills>li.active>a, .tab-button .nav-pills>li.active>a:focus, .tab-button .nav-pills>li.active>a:hover {
+    color: #394166;
+    background-color: #fff;
+    border-left: 5px solid #4077E4;
+    box-shadow: 3px 4px 15px 0px rgba(0, 0, 0, 0.02);
+}
+
+.tab-button .nav>li>a:focus, .tab-button .nav>li>a:hover {
+    background-color: transparent;
+}
+
+.upload-bar {
+    display: flow-root;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.upload-bar h5{
+    font-weight: 700;
+    text-transform: uppercase;
+    float: left;
+    margin: 0;
+    margin-top: 2px;
+}
+
+.upload-bar span{
+    float: right;
+}
+.upload-bar a{
+    color: #999;
+    font-size: 14px;
+    vertical-align: text-bottom;
+}
+
+
+.tab-content {
+	width: 75%;
+    float: right;
+}
+
+
+.top-heading {
+	background: #4077E4;
+    padding: 13px 25px;
+}
+
+
+.top-heading h3{
+	color: #fff;
+    margin: 0;
+}
+
+
+.top-heading {
+	background: #4077E4;
+}
+
+.top-banner img{
+	width: 100%;
+}
+
+.tab-content-inner {
+    padding: 35px;
+}
+
+
+.navigation1 .navbar-inverse {
+    background-color: #4a5763;
+    border-color: #4a5763;
+    border-radius: 0;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    background-color: transparent;
+}
+
+
+.tab-content-inner-content{
+	padding: 35px;
+}
+
+.tab-content-inner-content p{
+	max-width: 750px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    color: #777;
+    line-height: 25px;
+}
+
+
+
+.user-persona-content {
+    margin: 35px;
+    border: 1px solid #ddd;
+    padding: 15px;
+}
+
+.user-persona-content p{
+    font-weight: 500;
+    margin-bottom: 30px;
+    color: #000;
+    line-height: 25px;
+}
+
+.user-persona-content h5{
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.user-persona-content h4{
+    font-weight: 500;
+    margin: 0 0 30px;
+    color: #000;
+    line-height: 25px;
+}
+
+
+
+
+
+@media (max-width: 767px){
+    .tab-button {
+    width: 100%;
+    position: relative;
+}
+
+    
+    .tab-content {
+	width: 100%;
+    float: none;
+}
+}
