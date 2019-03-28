@@ -15,7 +15,7 @@ class App extends Component {
                         <div className="container-fluid">
                             <div className="row">
                                 <SideNavBar />
-                                <div className="tab-content">
+                                <div className="tab-content1">
                                     <Switch>
                                         <Route exact path='/' component={Document1} />
                                         <Route path='/document1' component={Document1} />
@@ -23,7 +23,6 @@ class App extends Component {
                                         <Route path='/document3' component={Document3} />
                                     </Switch>
                                 </div>
-                                <div>jai ram ji ki</div>
                             </div>
                         </div>
                     </section>
